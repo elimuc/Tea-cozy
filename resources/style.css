@@ -1,0 +1,106 @@
+body{
+  color:white;
+  text-align: center;
+  opacity:0.9;
+  background-color: black;
+  color:seashell;
+  font-size:22px;
+  font-family: helvetica;
+
+}
+header{
+  display:flex;
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width:100%;
+  top:0px;
+  background-color: black;
+  align-items: center;
+}
+
+
+.name{
+  flex-grow: 1;
+  width:155px;
+  justify-content: flex-start;
+  height:50px;
+  margin-left: 10px;
+}
+ul{
+  display:inline-flex;
+  flex-grow: 2;
+  margin-left: 700px;
+}
+
+li{
+  padding:3px 12px;
+  display: flex;
+  list-style-type: none;
+}
+.coverpic{
+align-content: center;
+width:1200px;
+height:700px;
+background-image: url(imgs/img-mission-background.jpg);
+margin:70px auto;
+display:block;
+align-items: center;
+}
+
+.coverpicw{
+  padding: 10px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+background-color: black;
+}
+.part2{
+  width:1000px;
+  border-style: dashed;
+  margin:auto;
+
+}
+.pics{
+  display:flex;
+  flex-flow:row wrap;
+  width:1000px;
+  justify-content: center;
+    line-height: 10px;
+}
+.part3{
+  background-image: url(imgs/img-locations-background.jpg);
+  height: 500px;
+  width:1200px;
+  margin: auto auto;
+}
+
+.part3b{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: center;
+
+}
+.part3a{
+  border-style: dashed;
+  line-height: 15px;
+}
+.part3a h2{
+  margin-top: 60px;
+}
+.downtown,.eastbay,.oakdale{
+  background-color: black;
+  margin:0px 20px;
+  width: 300px;
+  opacity: 1;
+  line-height: 40px;
+}
+
+
+img{
+    margin:10px 10px;
+}
+a:visited{
+  color: white;
+}
