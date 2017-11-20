@@ -17,6 +17,7 @@ header{
   top:0px;
   background-color: black;
   align-items: center;
+  z-index: 20;
 }
 
 
@@ -49,7 +50,8 @@ align-items: center;
 }
 
 .coverpicw{
-  padding: 10px;
+position: relative;
+top:250px;
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
@@ -58,8 +60,8 @@ background-color: black;
 }
 .part2{
   width:1000px;
-  border-style: dashed;
-  margin:auto;
+
+  margin:0px auto;
 
 }
 .pics{
@@ -73,33 +75,48 @@ background-color: black;
   background-image: url(imgs/img-locations-background.jpg);
   height: 500px;
   width:1200px;
-  margin: auto auto;
+  margin: auto;
 }
 
+
+.part3a h4{
+  border-style: dashed;
+  line-height: 40px;
+}
+.part3a h2{
+position: relative;
+}
 .part3b{
   display:flex;
   flex-flow:row wrap;
   justify-content: center;
-
-}
-.part3a{
-  border-style: dashed;
-  line-height: 15px;
-}
-.part3a h2{
-  margin-top: 60px;
 }
 .downtown,.eastbay,.oakdale{
   background-color: black;
   margin:0px 20px;
   width: 300px;
   opacity: 1;
+
+}
+.downtown h3,.eastbay h3,.oakdale h3{
+  line-height:20px;
+}
+.downtown h4,.eastbay h4,.oakdale h4{
   line-height: 40px;
 }
-
-
 img{
     margin:10px 10px;
+}
+.part4 {
+  height:200px;
+}
+.part4 h5{
+  line-height: 50px;
+}
+
+.part5{
+  text-align: left;
+  margin-left: 20px;
 }
 a:visited{
   color: white;
